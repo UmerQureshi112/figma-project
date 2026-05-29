@@ -1,3 +1,246 @@
+/* =========================
+   LARGE LAPTOP / DESKTOP
+========================= */
+
+@media (max-width: 1200px){
+
+  .contain > h1{
+    font-size: 55px;
+    width: 90%;
+  }
+
+  .contain > p{
+    width: 85%;
+  }
+
+  .forth-section{
+    gap: 20px;
+  }
+
+  .circle{
+    width: 350px;
+    height: 350px;
+  }
+
+  .circle > img{
+    height: 420px;
+    margin: -30px 55px;
+  }
+
+}
+
+
+/* =========================
+   SMALL LAPTOP
+========================= */
+
+@media (max-width: 992px){
+
+  .flex{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contain{
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .contain > h1{
+    width: 90%;
+    margin: auto;
+    font-size: 48px;
+  }
+
+  .contain > p{
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .download{
+    justify-content: center;
+  }
+
+  .second-input-section{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .submit{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .submit > input{
+    width: 60%;
+  }
+
+  .forth-section{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 50px;
+  }
+
+  .circles{
+    order: 1;
+  }
+
+  .box{
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .boxx{
+    order: 3;
+    width: 100%;
+    text-align: center;
+  }
+
+  .box > .img,
+  .boxx > .img{
+    justify-content: center;
+  }
+
+  .box > h1,
+  .boxx > h1{
+    text-align: center;
+  }
+
+  .box > p,
+  .boxx > p{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px){
+
+  nav{
+    padding: 20px;
+  }
+
+  .link > div,
+  .link > button{
+    display: none;
+  }
+
+  .link > svg{
+    display: block;
+  }
+
+  .contain > h1{
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .contain > p{
+    font-size: 20px;
+  }
+
+  .download{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .ci-button-site{
+    width: 180px;
+  }
+
+  .submit{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .submit > input,
+  .Apply-to-Drive{
+    width: 100%;
+  }
+
+  .circle{
+    width: 300px;
+    height: 300px;
+  }
+
+  .circle > img{
+    height: 350px;
+    margin: -25px 45px;
+  }
+
+  .frame,
+  .frame-two,
+  .frame-three{
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 30px;
+  }
+
+  .center{
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+  }
+
+}
+
+
+/* =========================
+   LARGE MOBILE
+========================= */
+
+@media (max-width: 576px){
+
+  .contain > h1{
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .contain > p{
+    width: 95%;
+    font-size: 18px;
+  }
+
+  .flex > .img > img{
+    width: 100%;
+  }
+
+  .heading > h1,
+  .heading > h1 > span{
+    font-size: 35px;
+  }
+
+  .circle{
+    width: 260px;
+    height: 260px;
+  }
+
+  .circle > img{
+    height: 310px;
+    margin: -20px 35px;
+  }
+
+  .number > h1{
+    font-size: 26px;
+  }
+
+  .pera > p{
+    font-size: 17px;
+  }
+
+}
+
+
 /* =========================================
    SMALL MOBILE
 ========================================= */
@@ -10,34 +253,40 @@
   }
 
   .nav-img{
-    flex-direction: column;
-    align-items: center;
     gap: 20px;
     margin: 0;
     width: 100%;
     height: auto;
   }
 
-  .link{
-    flex-direction: column;
-    gap: 20px;
+  .nav-img > img{
+    height: 25%;
+    width: 25%;
   }
 
-  button{
-    width: 160px;
-    height: 45px;
-    font-size: 18px;
-  }
+ .link > div,
+ .link > button{
+  display: none;
+ }
 
+ 
+.link > svg{
+  display: block;
+}
   .Hero-section{
     width: 100%;
     margin-left: 0;
   }
 
   .flex{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     gap: 30px;
+  }
+
+  .flex > .img > img{
+    height: auto;
+    width: auto;
   }
 
   .contain{
@@ -58,21 +307,30 @@
   }
 
   .download{
-    flex-direction: column;
+    display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 25px;
   }
 
   .ci-button-site{
-    width: 220px;
-    height: 60px;
-    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
   }
 
+   .flex > .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   }
+
   .flex > .img > img{
-    width: 90%;
-    height: auto;
-    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    margin-top: 12;
   }
 
   .second-input-section{
@@ -83,8 +341,8 @@
 
   .peragraph > p{
     width: 100%;
-    margin: 0;
-    text-align: center;
+    margin: 0px  0px;
+    text-align: start;
     font-size: 20px;
   }
 
@@ -98,12 +356,25 @@
     height: 60px;
   }
 
+  
+.submit > input::placeholder{
+  font-size: 16px;
+  padding: 12px 12px;
+}
+
   .Apply-to-Drive{
     width: 100%;
     height: 60px;
+    background-color: black;
+    color: white;
   }
 
   .heading > h1{
+    font-size: 35px;
+    text-align: center;
+  }
+
+   .heading > h1 > span{
     font-size: 35px;
     text-align: center;
   }
@@ -114,17 +385,23 @@
   }
 
   .forth-section{
+  
     flex-direction: column;
     align-items: center;
     height: auto;
   }
 
   .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 280px;
     height: 280px;
+    order: 3;
   }
 
   .circle > img{
+    order: -5;
     height: 320px;
     margin: -20px 40px;
   }
@@ -132,6 +409,7 @@
   .box,
   .boxx{
     text-align: center;
+    width: 100%;
   }
 
   .box > .img,
@@ -144,16 +422,46 @@
     text-align: center;
   }
 
-  .box > p,
-  .boxx > p{
-    width: 90%;
-    margin: 10px auto;
+  .box > p{
+    width: 100%;
+    margin: 5px 0px;
     text-align: center;
   }
+
+  .boxx > p {
+  width: 100%; 
+  text-align: center;
+
+}
 
   .tare{
     margin-top: 80px;
   }
+
+
+
+  .forth-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* MOBILE CIRCLE TOP */
+.circles{
+  order: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* LEFT CONTENT */
+.box{
+  order: 2;
+}
+
+/* RIGHT CONTENT */
+.boxx{
+  order: 3;
+}
 
   .frame-section,
   .frame-section-two,
@@ -219,15 +527,27 @@
     flex-direction: column;
     gap: 40px;
     text-align: center;
+
   }
 
   .center > .img > img{
     margin-left: 0;
   }
 
+  .address-two{
+    display: none;
+  }
+
   .button{
     flex-direction: column;
     align-items: center;
+    margin-top: 0;
+  }
+
+   .copy-text{
+    color: rgb(184, 182, 182);
+    width: 50%;
+    text-align: center;
   }
 
   .hr-line{
@@ -237,81 +557,3 @@
   }
 
 }
-
-
-/* =========================================
-   TABLET
-========================================= */
-
-@media (min-width: 481px) and (max-width: 1104px){
-
-  .Hero-section{
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .flex{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contain{
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .contain > h1,
-  .contain > p{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .download{
-    justify-content: center;
-  }
-
-  .second-input-section{
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .submit{
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .submit > input,
-  .Apply-to-Drive{
-    width: 90%;
-  }
-
-  .forth-section{
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-  }
-
-  .frame,
-  .frame-two,
-  .frame-three{
-    width: 90%;
-  }
-
-  .footer{
-    width: 100%;
-    height: auto;
-  }
-
-  .center{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-  }
-
-  .hr-line{
-    width: 100%;
-  }
-
-}
-
