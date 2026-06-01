@@ -1,9 +1,28 @@
 /* =========================
    LARGE LAPTOP / DESKTOP
 ========================= */
+@media (max-width: 1400px){
+nav{
+  width: 90%;
+}
+
+.circle{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+  width: 100%;
+}
+
+.hr-line{
+  width: 100%;
+}
+
+}
 
 @media (max-width: 1200px){
-
   .contain > h1{
     font-size: 55px;
     width: 90%;
@@ -17,14 +36,27 @@
     gap: 20px;
   }
 
+  .circles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   .circle{
-    width: 350px;
     height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle > img{
     height: 420px;
-    margin: -30px 55px;
+    margin: -30px 55px;/
+  }
+
+  .footer{
+    width: 100%;
   }
 
 }
@@ -35,11 +67,19 @@
 ========================= */
 
 @media (max-width: 992px){
-
   .flex{
     flex-direction: column-reverse;
     align-items: center;
     gap: 40px;
+  }
+
+  .second-input-section{
+    width: 80%;
+    display: flex;
+  }
+
+  .third-section{
+    width: 100%;
   }
 
   .contain{
@@ -59,21 +99,16 @@
   }
 
   .download{
-    justify-content: center;
-  }
-
-  .second-input-section{
-    flex-direction: column;
-    gap: 25px;
+    display: flex;
   }
 
   .submit{
-    width: 100%;
+    width: 80%;
     justify-content: center;
   }
 
   .submit > input{
-    width: 60%;
+    width: 50%;
   }
 
   .forth-section{
@@ -84,7 +119,16 @@
   }
 
   .circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     order: 1;
+  }
+
+  .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .box{
@@ -116,6 +160,10 @@
     text-align: center;
   }
 
+  .footer{
+    width: 100%;
+  }
+
 }
 
 
@@ -127,6 +175,7 @@
 
   nav{
     padding: 20px;
+    width: 90%;
   }
 
   .link > div,
@@ -136,6 +185,14 @@
 
   .link > svg{
     display: block;
+  }
+
+  .second-input-section{
+    width: 80%;
+  }
+
+   .third-section{
+  width: 100%;
   }
 
   .contain > h1{
@@ -154,7 +211,7 @@
   }
 
   .ci-button-site{
-    width: 180px;
+    width: 250px;
   }
 
   .submit{
@@ -170,6 +227,9 @@
   .circle{
     width: 300px;
     height: 300px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle > img{
@@ -192,6 +252,18 @@
     gap: 35px;
   }
 
+  .footer{
+    height: 900px;
+  }
+
+  .center > .img > img{
+    margin: 0;
+  }
+
+  .hr-line{
+    margin-top: 23px;
+  }
+
 }
 
 
@@ -199,11 +271,27 @@
    LARGE MOBILE
 ========================= */
 
-@media (max-width: 576px){
+@media (max-width: 583px){
 
+   nav{
+    width: 1200px;
+    margin: 0;
+   }
+
+  .container{
+    width: 80%;
+  }
   .contain > h1{
     font-size: 35px;
     line-height: 48px;
+  }
+
+  .second-input-section{
+    width: 80%;
+  }
+
+  .third-section{
+  width: 100%;
   }
 
   .contain > p{
@@ -223,6 +311,9 @@
   .circle{
     width: 260px;
     height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle > img{
@@ -238,6 +329,10 @@
     font-size: 17px;
   }
 
+  .footer{
+    width: 100%;
+  }
+
 }
 
 
@@ -249,6 +344,7 @@
 
   nav{
     height: auto;
+    width: 410px;
     padding: 20px;
   }
 
@@ -287,6 +383,16 @@
   .flex > .img > img{
     height: auto;
     width: auto;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .third-section{
+   width: 100%;
   }
 
   .contain{
@@ -334,26 +440,29 @@
   }
 
   .second-input-section{
-    flex-direction: column;
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 5px;
     gap: 20px;
     padding: 25px;
   }
 
   .peragraph > p{
-    width: 100%;
+    width: 80%;
     margin: 0px  0px;
     text-align: start;
     font-size: 20px;
   }
 
   .submit{
-    flex-direction: column;
+    display: flex;
     width: 100%;
   }
 
   .submit > input{
     width: 100%;
     height: 60px;
+    font-size: 2px;
   }
 
   
@@ -511,8 +620,7 @@
   }
 
   .footer{
-    width: 100%;
-    height: auto;
+    width: 120%;
     margin-top: 100px;
   }
 
@@ -526,7 +634,6 @@
     flex-direction: column;
     gap: 40px;
     text-align: center;
-
   }
 
   .center > .img > img{
@@ -554,5 +661,6 @@
     height: 1px;
     margin-top: 30px;
   }
+
 
 }
