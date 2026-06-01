@@ -508,6 +508,12 @@ h1 > span {
     margin-top: 12;
   }
 
+  .canter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .second-input-section{
     display: flex;
     flex-direction: column;

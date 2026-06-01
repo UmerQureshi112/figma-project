@@ -346,9 +346,7 @@ button {
 }
 
 .tare {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+text-align: center;
   margin-top: 190px;
   letter-spacing: -2px;
 }
