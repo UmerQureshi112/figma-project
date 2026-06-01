@@ -316,47 +316,6 @@ nav{
     align-items: center;
   }
 
-  
-  .second-input-section{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
-    gap: 20px;
-    padding: 25px;
-  }
-
-  .peragraph > p{
-    width: 80%;
-    margin: 0px  0px;
-    text-align: start;
-    font-size: 20px;
-  }
-
-  .submit{
-    display: flex;
-    width: 100%;
-  }
-
-  .submit > input{
-    width: 100%;
-    height: 60px;
-    font-size: 2px;
-  }
-
-  
-.submit > input::placeholder{
-  font-size: 16px;
-  padding: 12px 12px;
-}
-
-  .Apply-to-Drive{
-    width: 100%;
-    height: 60px;
-    background-color: black;
-    color: white;
-  }
 
   .tare {
   display: flex;
@@ -395,8 +354,6 @@ h1 > span {
   .footer{
     width: 100%;
   }
-
-
 
 }
 
@@ -508,16 +465,8 @@ h1 > span {
     margin-top: 12;
   }
 
-  .canter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .second-input-section{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    width: 80%;
     margin-left: 5px;
     margin-right: 5px;
     gap: 20px;
