@@ -65,7 +65,6 @@ nav{
 /* =========================
    SMALL LAPTOP
 ========================= */
-
 @media (max-width: 992px){
   .flex{
     flex-direction: column-reverse;
@@ -274,15 +273,21 @@ nav{
 ========================= */
 
 @media (max-width: 583px){
+.container {
+  width: 100%;
+}
 
-   nav{
-    width: 80%;
-    margin: 0;
-   }
+nav {
+  background-color: white;
+  height: 145px;
+  width: 210%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin: 0;
+}
 
-  .container{
-    width: 80%;
-  }
   .contain > h1{
     font-size: 35px;
     line-height: 48px;
@@ -368,15 +373,19 @@ h1 > span {
 
 @media (max-width: 480px){
 
-.container{
+.container {
   width: 80%;
 }
 
-  nav{
-    height: auto;
-    width: 125%;
-    padding: 20px;
-  }
+nav {
+  background-color: white;
+  height: 145px;
+  width: 417px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
 
   .nav-img{
     gap: 20px;

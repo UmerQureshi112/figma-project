@@ -18,7 +18,7 @@ body {
 nav {
   background-color: white;
   height: 145px;
-  width: 100%;
+  width: 1687px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -451,7 +451,7 @@ h1 > span {
   justify-content: center;
   align-items: center;
   height: 700px;
-  width: 111.5%;
+  width: 1695px;
   background-color: white;
   position: relative;
 }
