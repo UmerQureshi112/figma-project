@@ -280,13 +280,18 @@ nav{
 nav {
   background-color: white;
   height: 145px;
-  width: 100%;
+  width: 210%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
   margin: 0;
 }
+
+nav{
+  width: 100%;
+}
+
 
   .contain > h1{
     font-size: 35px;
@@ -380,7 +385,7 @@ h1 > span {
 nav {
   background-color: white;
   height: 145px;
-  width: 100%;
+  width: 437px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -661,7 +666,7 @@ nav {
   }
 
   .footer{
-    width: 100%;
+    width: 125%;
     margin-top: 100px;
   }
 
