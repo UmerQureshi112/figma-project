@@ -280,18 +280,13 @@ nav{
 nav {
   background-color: white;
   height: 145px;
-  width: 210%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
   margin: 0;
 }
-
-nav{
-  width: 100%;
-}
-
 
   .contain > h1{
     font-size: 35px;
@@ -385,11 +380,11 @@ h1 > span {
 nav {
   background-color: white;
   height: 145px;
-  width: 437px;
+  width: 387px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 50px;
 }
 
   .nav-img{
